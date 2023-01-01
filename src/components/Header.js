@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <ImCool className="header-image" />
       <h2 className="header-title">Meme generator</h2>
-      <h4 className="header-project">React Project</h4>
+      <h2 className="header-project">React Project</h2>
     </header>
   );
 };
