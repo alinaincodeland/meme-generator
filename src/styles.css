@@ -12,7 +12,7 @@ main {
     margin-right: 20rem;
         margin-left: 20rem;
         text-align: center;
-        background-color: rgba(173, 216, 230, 0.288);
+        /* background-color: rgba(173, 216, 230, 0.288); */
 }
 
 .header {
@@ -30,6 +30,7 @@ main {
     height: 100%;
     margin-left: 20px;
     margin-right: 10px;
+    
 }
 
 .header--title {
