@@ -3,19 +3,27 @@
 }
 
 body {
-    font-family: "Karla", sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+
 
 main {
     padding: 30px;
+    margin-right: 20rem;
+        margin-left: 20rem;
+        text-align: center;
+        background-color: rgba(173, 216, 230, 0.288);
 }
+
 .header {
     display: flex;
     align-items: center;
     height: 65px;
-    background: linear-gradient(90deg, teal 1.18%, #6f3ae9 100%);
+    background: linear-gradient(90deg, rgb(63, 18, 105) 1.18%, #6f3ae9 100%);
     color: white;
     padding: 20px;
+    margin-right: 20rem;
+        margin-left: 20rem;
 }
 
 .header--image {
@@ -30,6 +38,7 @@ main {
 }
 
 .header--project {
+    margin-right: 10px;
     font-size: 1rem;
     font-weight: 500;
 }
@@ -50,9 +59,10 @@ main {
 
 .form--button {
     grid-column: 1 / -1;
-    font-family: "Karla", sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: medium;
     border-radius: 5px;
-    background: linear-gradient(90deg, teal 1.18%, #6f3ae9 100%);
+    background: linear-gradient(90deg, rgb(63, 18, 105) 1.18%, #6f3ae9 100%);
         color: white;
         border: none;
     cursor: pointer;
@@ -60,7 +70,6 @@ main {
 
 .meme {
     position: relative;
-    /* left:30% */
 }
 
 .meme--image {
