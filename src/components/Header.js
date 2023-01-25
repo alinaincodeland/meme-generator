@@ -1,15 +1,12 @@
-import React from "react";
 import { ImCool } from "react-icons/im";
-import "../styles.css";
+import React from "react";
 
-const Header = () => {
+export default function Header() {
   return (
-    <header>
-      <ImCool className="header-image" />
-      <h2 className="header-title">Meme generator</h2>
-      <h2 className="header-project">React Project</h2>
+    <header className="header">
+      <ImCool className="header--image" />
+      <h2 className="header--title">Meme DIY</h2>
+      <h2 className="header--project">React Project</h2>
     </header>
   );
-};
-
-export default Header;
+}

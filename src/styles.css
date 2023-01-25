@@ -3,62 +3,100 @@
 }
 
 body {
-    font-family: monospace;
-    margin: 0;
-}
+    font-family: "Karla", sans-serif;
+    }
 
 main {
-    padding: 36px;
+    padding: 30px;
 }
-header {
+.header {
     display: flex;
     align-items: center;
     height: 65px;
-    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    background: linear-gradient(90deg, teal 1.18%, #6f3ae9 100%);
     color: white;
-    padding: 36px;
+    padding: 20px;
 }
 
-.header-image {
-    max-height: max-content;
+.header--image {
+    height: 100%;
+    margin-left: 20px;
     margin-right: 10px;
 }
 
-.header-title {
+.header--title {
     font-size: 1.25rem;
     margin-right: auto;
 }
 
-.header-project {
+.header--project {
     font-size: 1rem;
     font-weight: 500;
 }
+
 .form {
     display: grid;
     grid-template: 40px 40px / 1fr 1fr;
     gap: 17px;
+    margin-bottom: 17px;
 }
 
-.form-input {
-    font-family: monospace;
+.form--input {
+    font-family: "Karla", sans-serif;
     border-radius: 5px;
     border: 1px solid #D5D4D8;
     text-indent: 5px;
-
 }
 
-.form-button {
-    color: white;
-    background: #711F8D;
+.form--button {
     grid-column: 1 / -1;
-    font-family: monospace;
-    border: none;
+    font-family: "Karla", sans-serif;
     border-radius: 5px;
+    background: linear-gradient(90deg, teal 1.18%, #6f3ae9 100%);
+        color: white;
+        border: none;
     cursor: pointer;
-
 }
 
-.meme-img {
+.meme {
+    position: relative;
+    /* left:30% */
+}
+
+.meme--image {
     max-width: 100%;
-    align-items: center;
+    border-radius: 3px;
+    }
+    
+    .meme--text {
+        position: absolute;
+        width: 80%;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 15px 0;
+        padding: 0 5px;
+        font-family: impact, sans-serif;
+        font-size: 2em;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 1px;
+        text-shadow:
+            2px 2px 0 #000,
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            0 2px 0 #000,
+            2px 0 0 #000,
+            0 -2px 0 #000,
+            -2px 0 0 #000,
+            2px 2px 5px #000;
+    }
+    
+    .bottom {
+        bottom: 0;
+    }
+    
+    .top {
+        top: 0;
 }
