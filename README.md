@@ -11,7 +11,7 @@ Meme Generator is an app built using React, CSS using React, CSS and Imgflip API
 
 The app is available for desktop only and not yet optimized for mobile devices. 
 
-The app was built following a series of videos on scrimba.com 
+The app is an exercise on React SPA from scrimba.com 
 
 Live version: https://meme-diy.netlify.app/
 
