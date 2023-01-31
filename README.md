@@ -18,8 +18,8 @@ Live version: https://meme-diy.netlify.app/
 ---
 ## Features
 
-- By clicking the button, the user gets access to a series of images fetched from Imgflip API. 
-- The user can customize the image by adding text on the top and/or the bottom of the image. 
+- Fetch popular meme images from Imgflip API. 
+- Customize the image by adding text on the top and/or the bottom of the fetched image. 
 
 ---
 
